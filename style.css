@@ -1,0 +1,63 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.header__nav{
+    align-items: center;
+    background: #f9f9f9;
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.logo{
+    display: flex;
+    margin-left: 5rem;
+    
+}
+
+.menu__item{
+    list-style: none;
+}
+
+.menu__list{
+    display: flex;
+}
+
+.menu__link{
+    margin-right: 1.25rem;
+    text-decoration: none;
+    color: black;
+    font-weight: bolder;
+    font-family: 'Fredoka', sans-serif;
+    padding-right: 4rem;
+    margin-right: 10px;
+    
+}
+
+.menu__link:hover{
+    color: #FA4A0C;
+    font-weight: bold;
+    transition: 2ms;
+}
+
+.banner{
+
+}
+
+.banner__img{
+  background: url('./assets/banner.png') no-repeat center / cover;
+  width: 100%;
+}
+
+.food__app{
+    
+    font-size: 24px;
+    font-weight: bold;
+    color: black;
+    font-family: 'Fredoka' , sans-serif;
+    
+    
+}
+
