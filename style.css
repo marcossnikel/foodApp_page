@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200;400;700&family=Poppins&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200;400;700&family=Poppins:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fredoka&family=Montserrat:ital,wght@0,100;0,200;0,400;0,700;1,200&family=Poppins:wght@100;700&display=swap');
 
 .header__nav {
     align-items: center;
@@ -28,7 +29,7 @@
     text-decoration: none;
     color: black;
     font-weight: bolder;
-    font-family: 'Fredoka', sans-serif;
+    font-family: 'Montserrat', sans-serif;
     padding-right: 4rem;
     margin-right: 10px;
 
@@ -123,6 +124,7 @@
     transition: .5s;
     font-size: 28px;
     font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
 }
 
 .button:nth-child(2) {
@@ -145,14 +147,15 @@
 
 .food__app {
     font-style: normal;
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Poppins', sans-serif;
     margin-bottom: 30px;
 }
 
 .banner__download {
     font-size: 30px;
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Poppins', sans-serif;
     margin-top: 30px;
+    font-weight: 500;
 }
 
 .container-app {
@@ -177,19 +180,24 @@
 
 }
 .how__text{
-    width: 50vw;
+    display: flex;
+    flex-direction: column;
+    
+    
+
 }
 .how__texth3 {
     color: #FA4A0C;
     font-size: 24px;
     font-family: 'Montserrat', sans-serif;
+    margin-bottom: 38px;
 }
 
 .how__textp {
     font-size: 40px;
     font-family: 'Montserrat', sans-serif;
     font-weight: bold;
-    text-align: center;
+    
 
 }
 
@@ -197,14 +205,14 @@
     font-size: 24px;
     font-family: 'Montserrat', sans-serif;
     font-weight: medium;
+    margin-top: 38px;
 }
 
 
 .container-varieties {
     display: flex;
     align-items: center;
-    justify-content: space-between;
-    background-color: lightgoldenrodyellow
+    justify-content: space-around;
 }
 
 .column-varieties {
@@ -226,7 +234,6 @@
 
 .varieties-subtext {
     font-size: 24px;
-    font-weight: medium;
     font-family: 'Montserrat', sans-serif;
 }
 
@@ -242,6 +249,16 @@
     color: #FA4A0C;
     font-family: 'Montserrat', sans-serif;
     font-size: 24px;
+}
+.checkout-text{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    font-size:40px ;
+}
+.checkout-subtext{
+    font-family: 'Montserrat', sans-serif;
+    color: #737373;
+    font-size:24px ;
 }
 
 .container-download {
@@ -267,7 +284,44 @@
 
 .container-footer {
     display: flex;
-    justify-content: space-around;
-    height: 133px;
-    width: 1210px;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.download-app{
+    font-weight: 700;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 40px;
+    margin-bottom: 15px;
+}
+
+.premium-exp{
+    font-family: 'Montserrat' , sans-serif;
+    font-weight: 500;
+    font-size: 24px;
+    margin-bottom: 30px;
+}
+
+.playstore-button , .appstore-button{
+    border: 1px solid white;
+    background-color: rgba(0, 0, 0, 0);
+    padding: 10px 50px;
+    border-radius: 15px;
+    cursor: pointer;
+    color: white;
+    transition: .5s;
+    font-size: 16px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    height: 80px;
+    
+}
+
+.playstore-button:hover , .appstore-button:hover {
+    border: 1px solid #FA4A0C;
+    background-color: #FA4A0C
+}
+
+.playstore-button , .appstore-button:nth-child(2) {
+    margin-left: 20px;
 }
