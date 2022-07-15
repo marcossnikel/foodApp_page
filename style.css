@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200;400;700&family=Poppins&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200;400;700&family=Poppins:wght@400;700&display=swap');
+
 .header__nav {
     align-items: center;
     background: #f9f9f9;
@@ -52,15 +55,40 @@
     justify-content: center;
     align-items: center;
     flex-direction: column;
+    position: relative;
+    margin-bottom: 400px;
+    
 }
 
-.div__phone {
+.section__app{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.line{
+    width: 60vw;
+    border-bottom: 1px solid #E4E4E4;
+    margin-top: 60px;
+    margin-bottom: 60px;
+}
+
+/* .div__phone {
     display: flex;
     align-items: center;
     justify-content: center;
-    transform: translate(-50px, -389px);
-    
+    transform: translate(-50px, -80px);
+    height: 200px;
+    /* background-color: red; */
+/* } */ 
 
+.phone__img{
+    position: absolute;
+    bottom: -370px;
+}
+
+.how_app_img{
+    width: 302px;
+    height: auto;
 }
 
 .texts {
@@ -71,7 +99,6 @@
     font-size: 24px;
     font-weight: bold;
     color: #f9f9f9;
-    font-family: 'Fredoka', sans-serif;
 }
 
 .buttons {
@@ -82,7 +109,7 @@
     align-items: center;
     flex-direction: row;
     z-index: 10;
-    
+
 
 }
 
@@ -90,10 +117,12 @@
     border: 1px solid white;
     background-color: rgba(0, 0, 0, 0);
     padding: 10px 50px;
-    border-radius: 15px;
+    border-radius: 30px;
     cursor: pointer;
     color: white;
     transition: .5s;
+    font-size: 28px;
+    font-family: 'Montserrat', sans-serif;
 }
 
 .button:nth-child(2) {
@@ -103,4 +132,142 @@
 .button:hover {
     border: 1px solid #FA4A0C;
     background-color: #FA4A0C
+}
+
+.banner__principal {
+    font-size: 80px;
+    font-weight: 700;
+    letter-spacing: 1px;
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    line-height: 80px;
+}
+
+.food__app {
+    font-style: normal;
+    font-family: 'Montserrat', sans-serif;
+    margin-bottom: 30px;
+}
+
+.banner__download {
+    font-size: 30px;
+    font-family: 'Montserrat', sans-serif;
+    margin-top: 30px;
+}
+
+.container-app {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+.container-app {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 100vw;
+}
+
+.how__app {
+    font-size: 55px;
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+    margin-bottom: 10px;
+
+}
+.how__text{
+    width: 50vw;
+}
+.how__texth3 {
+    color: #FA4A0C;
+    font-size: 24px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.how__textp {
+    font-size: 40px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    text-align: center;
+
+}
+
+.how__textp2 {
+    font-size: 24px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: medium;
+}
+
+
+.container-varieties {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: lightgoldenrodyellow
+}
+
+.column-varieties {
+    flex-direction: column;
+    margin: 0px 3px 0px 80px;
+}
+
+.explore-varieties {
+    color: #FA4A0C;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 24px;
+}
+
+.varieties-text {
+    font-size: 40px;
+    font-weight: bold;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.varieties-subtext {
+    font-size: 24px;
+    font-weight: medium;
+    font-family: 'Montserrat', sans-serif;
+}
+
+
+.container-checkout {
+    display: flex;
+    align-items: center;
+    flex-direction: row-reverse;
+    justify-content: space-around;
+}
+
+.checkout {
+    color: #FA4A0C;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 24px;
+}
+
+.container-download {
+    display: flex;
+    background-image: url(./assets/background__download.png);
+    height: 509px;
+    width: 1440px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: #f9f9f9;
+    text-align: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 100%;
+}
+
+.download-buttons {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container-footer {
+    display: flex;
+    justify-content: space-around;
+    height: 133px;
+    width: 1210px;
 }
